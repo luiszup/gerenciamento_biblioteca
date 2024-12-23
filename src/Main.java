@@ -6,10 +6,6 @@ public class Main {
         Scanner input = new Scanner(System.in);
         int opcao;
 
-//        Bem-vindo ao Sistema de Gerenciamento de Biblioteca! Escolha uma opção: 1. Cadastrar
-//        livro 2. Cadastrar usuário 3. Realizar empréstimo 4. Realizar devolução 5. Exibir livros
-//        disponíveis 6. Sair
-
         System.out.println("---------Bem-vindo ao sistema de gerenciamento da biblioteca!--------");
         System.out.println("Escolha uma opção:");
         System.out.println("1. Cadastrar livro");
@@ -22,8 +18,6 @@ public class Main {
         input.nextLine();
 
         switch (opcao) {
-//            Digite o título do livro: O Senhor dos Anéis Digite o autor do livro: J.R.R. Tolkien Digite o
-//            ISBN do livro: 123456789
             case 1:
                 System.out.println("Digite o título do livro: ");
                 String titulo = input.nextLine();
@@ -40,7 +34,6 @@ public class Main {
                 break;
 
             case 2:
-//                Digite o nome do usuário: João Silva Digite o ID do usuário: 1
                 System.out.println("Digite o nome do usuário");
                 String nome = input.nextLine();
                 System.out.println("Digite o ID do usuário: ");
@@ -52,7 +45,6 @@ public class Main {
                 break;
 
             case 3:
-//                Digite o ISBN do livro: 123456789 Digite o ID do usuário: 1
                 System.out.println("Digite o ISBN do livro: ");
                 String isbnEmprestimo = input.nextLine();
                 System.out.println("Digite o ID do usuário: ");
